@@ -8,8 +8,6 @@
     <form>
       <label>Enter your first name</label>
       <input type="text" name="name" id="name" placeholder="Enter your first name" value=""> <br>
-      <label>Enter your last name</label>
-      <input type="text" name="name" id="name" value=""><br>
       <label>Enter your email</label>
       <input type="email" name="email" id="email" value=""><br>
       <label>Enter your mobile</label>
@@ -21,14 +19,8 @@
       <input type="radio" name="gender" id="female" value="female"><span>Female </span> <br>
       <label>Select your Date of Birth</label>
       <input type="date" name="dob" id="dob" value=""><br>
-      <label>Select your country </label>
-      <select name="country" id="country">
-        <option value="">... Select your country...</option>
-        <option value="India">India </option>
-        <option value="Afghanistan">Afghanistan </option>
-        <option value="France">France </option> <br>
-      </select> <br>
-      <input type="file" name="fileupload" id="fileupload" value="fileupload"> <br>
+      <label>Enter your country </label>
+      <input type="text" name="country" id="country" placeholder="Enter your country name" value=""><br>
       <input type="submit" name="submit" id="submit" value="Register">
       <input type="submit" name="reset" id="reset" value="Reset">
       </form>
